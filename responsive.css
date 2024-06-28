@@ -239,6 +239,9 @@ nav ul li a:hover {
         border-radius: 0 0 50px 50px;
     }
 
+    .what-title h1 {
+        font-size: 40px;
+    }
     .what-list {
         padding: 60px;
         grid-template-columns: repeat(4, 1fr);
@@ -326,6 +329,10 @@ nav ul li a:hover {
 
     .about-image picture > img {
         border-radius: 0 0 50px 50px;
+    }
+
+    .what-title h1 {
+        font-size: 50px;
     }
 
     .what-list {
