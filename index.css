@@ -1,0 +1,328 @@
+/* coding start */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(Font/static/Montserrat-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background-color: #24242a;
+}
+
+p {
+    line-height: 24px;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #24242a;
+}
+
+.logo {
+    opacity: 80%;
+    margin-left: 30px;
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.logo:hover {
+    opacity: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.hamburger-button {
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+.welcome {
+    position: relative;
+    height: 550px;
+}
+
+.welcome-img {
+    text-align: center;
+    background-color: white;
+    background-image: url(images/musicfest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome-title h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px #000000;
+    letter-spacing: 1px;
+}
+
+.welcome-title p {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+.sponsor {
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px 0;
+    white-space: nowrap;
+}
+
+.sponsor-title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sponsor-title p {
+    font-size: 20px;
+    font-style: italic;
+    color: #000000;
+}
+
+.logo-slide {
+    display: inline-block;
+}
+
+.logo-slide img {
+    height: 30px;
+    margin: 30px;
+}
+
+.about-container {
+    margin-top: 80px;
+    padding: 130px;
+}
+
+.about {
+    font-size: 35px;
+    background-color: #dae825;
+    border-radius: 50px 0 0 50px;
+    padding: 30px;
+}
+
+.about h1 {
+    color: #000000;
+    font-weight: 700;
+    text-align: end;
+}
+
+.about p {
+    color: hsl(0, 0%, 0%);
+    font-size: 16px;
+    text-align: end;
+}
+
+.about-image picture {
+    border-radius: 0 50px 50px 0;
+}
+
+.about-image picture > img {
+    border-radius: 0 50px 50px 0;
+}
+
+.what-container {
+    background-color: #dae825;
+}
+
+.what-title {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.what-title h1 {
+    font-size: 65px;
+    font-weight: 900;
+    color: #000000;
+}
+.what-title p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.what-list {
+    width: 100%;
+    padding: 80px;
+}
+
+.what-items {
+    background-color: rgb(251, 253, 206);
+    border-radius: 30px;
+    box-shadow: 3px 3px 20px #24242a;
+    padding: 20px 0;
+    transition: transform 0.5s;
+}
+
+.what-items:hover {
+    transform: scale(1.02);
+}
+
+.what-items h2 {
+    color: #24242a;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.what-items p {
+    color: #24242a;
+    text-align: center;
+    font-size: 16px;
+}
+
+.artist-container {
+    margin-top: 80px;
+}
+
+.artist-title {
+    padding-top: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.artist-title h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.artist {
+    background-color: whitesmoke;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.artist-card {
+    background-color: #dae825;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 25px #24242a;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.artist-card:hover {
+    transform: scale(1.04);
+}
+
+.artist-img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+
+    border-radius: 15px 15px 0 0;
+}
+
+.artist-name {
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact {
+    padding-top: 130px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group option {
+    color: #333;
+}
+
+.form-group button {
+    background-color: #dae825;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #e4cc1a;
+}
+
+.trademark {
+    padding: 30px;
+    text-align: center;
+}
+
+.trademark p {
+    font-size: 12px;
+}
