@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -12,6 +16,11 @@ nav {
     align-items: center;
 }
 
+.light .logo-dark,
+.dark .logo-light {
+    display: none;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -23,7 +32,31 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #dae825;
+    color: rgb(245, 192, 0);
+}
+
+.dark nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.ph-sun {
+    cursor: pointer;
+    color: black;
+    transition: color 0.5s ease 0s;
+}
+
+.ph-sun:hover {
+    color: rgb(245, 192, 0);
+}
+
+.ph-moon {
+    cursor: pointer;
+    color: white;
+    transition: color 0.5s ease 0s;
+}
+
+.ph-moon:hover {
+    color: rgb(255, 0, 0);
 }
 
 .hamburger-button {
@@ -127,6 +160,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: default;
 }
 
 .artist {
