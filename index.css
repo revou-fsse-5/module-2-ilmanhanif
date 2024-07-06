@@ -329,7 +329,7 @@ nav ul li a {
     background-color: #24242a;
     height: 400px;
     border-radius: 15px;
-    box-shadow: 5px 10px 25px #24242a;
+    box-shadow: 5px 10px 25px black;
     cursor: pointer;
     transition: transform 0.6s;
 }
