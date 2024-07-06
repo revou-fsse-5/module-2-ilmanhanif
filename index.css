@@ -431,4 +431,9 @@ nav ul li a {
 
 .trademark p {
     font-size: 12px;
+    color: black;
+}
+
+.dark .trademark p {
+    color: white;
 }
